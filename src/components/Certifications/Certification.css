@@ -1,0 +1,24 @@
+.certification-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.certification-title{
+    position: relative;
+}
+
+.certification-title h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.certification-data img {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+  }
