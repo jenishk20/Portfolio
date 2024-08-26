@@ -12,8 +12,6 @@ phases:
   post_build:
     commands:
       - echo Build completed, preparing to deploy...
-      - echo Pushing artifacts to S3...
-      - aws s3 cp --recursive build/ s3://portfolio-jk/
 
 artifacts:
   files:
