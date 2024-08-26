@@ -17,11 +17,11 @@ export const skills = [
   {
     skill_id: "4",
     skill_name: "Cloud & DevOps",
-    subskills: ["AWS", "Jenkins", "Docker", "Kubernetes"],
+    subskills: ["AWS", "Jenkins", "Docker"],
   },
   {
     skill_id: "5",
-    skill_name: "CI/CD",
+    skill_name: "CI / CD",
     subskills: ["Git", "BitBucket", "AWS CodePipeline"],
   },
   {
