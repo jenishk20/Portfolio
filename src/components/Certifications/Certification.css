@@ -1,24 +1,34 @@
-.certification-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+.certification-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
 }
 
-.certification-title{
-    position: relative;
+.certification-title {
+  position: relative;
 }
 
-.certification-title h1{
-    font-size: 80px;
-    font-weight: 600;
+.certification-title h1 {
+  font-size: 80px;
+  font-weight: 600;
 }
 
-.certification-data img {
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: transparent;
-  }
+.certification-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.certification-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.certification-data img{
+    width: 400px;
+}
