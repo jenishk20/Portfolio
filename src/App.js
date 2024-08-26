@@ -4,6 +4,7 @@ import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
 import Certification from "./components/Certifications/Certification";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Skills/>
       <Certification/>
+      <Experience/>
     </div>
   );
 }

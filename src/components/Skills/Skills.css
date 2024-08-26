@@ -57,6 +57,11 @@
   margin-bottom: 80px;
 }
 
+.skill-details:hover {
+  background-color: #2b2926;
+  transform: scale(1.02);
+}
+
 .subskills {
   margin-top: 20px;
   display: flex;

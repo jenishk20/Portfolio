@@ -1,0 +1,59 @@
+.work-ex-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #1e1c1a;
+  transition: transform 0.4s, background-color 0.4s;
+  cursor: pointer;
+  color: white;
+}
+
+.work-ex-card:hover {
+  background-color: #2b2926;
+  transform: scale(1.02);
+}
+
+.work-title {
+  font-size: 38px;
+  font-weight: 600;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
+
+.work-duration,
+.work-location,
+.work-skills {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.work-location {
+  color: #d3d3d3;
+}
+
+.work-skills {
+  color: #00acee;
+}
+
+.work-company {
+  margin-bottom: 20px;
+}
+
+.work-responsibilities {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.work-responsibilities li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+}
