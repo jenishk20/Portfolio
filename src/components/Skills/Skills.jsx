@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="skill-title">
-        <h1>My Skills</h1>
+        <h1>Skills</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="skill-container">
