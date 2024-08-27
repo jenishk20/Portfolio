@@ -9,7 +9,7 @@ const Certification = () => {
   return (
     <div className="certification-section">
       <div className="certification-title">
-        <h1>My Certifications</h1>
+        <h1>Certifications</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="certification-data">

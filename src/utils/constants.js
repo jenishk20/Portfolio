@@ -1,3 +1,6 @@
+import nirma_logo from "../assets/Nirma University.jpg";
+import northeastern_logo from "../assets/northeastern.png";
+
 export const skills = [
   {
     skill_id: "1",
@@ -79,4 +82,36 @@ export const workExperience = [
   //     "Utilized Python Tkinter and GDSPy packages for development, integrating all Python scripts used for computations.",
   //   ],
   // },
+];
+
+
+export const education = [
+  {
+    edu_id: "1",
+    institution: "Nirma University",
+    degree: "B.Tech in Computer Science",
+    duration: "2018 - 2022",
+    location: "Ahmedabad, India",
+    cgpa : "3.6 / 4",
+    logo : nirma_logo,
+    details: [
+      "Graduated with distinction",
+      "Completed projects in AI and ML",
+      "Participated in coding competitions and hackathons",
+    ],
+  },
+  {
+    edu_id: "2",
+    institution: "Northeastern University",
+    degree: "Master's in Computer Science",
+    duration: "2024 - 2026",
+    location: "Boston, MA, USA",
+    cgpa : "3.8 / 4",
+    logo : northeastern_logo,
+    details: [
+      "Focused on advanced algorithms, AI, and cloud computing",
+      "Teaching Assistant for CS3520 - Programming in C++",
+      "Working on a thesis related to AI-based resume parsing",
+    ],
+  },
 ];
