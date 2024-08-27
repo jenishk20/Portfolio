@@ -12,12 +12,7 @@ phases:
   post_build:
     commands:
       - echo Build is complete
-
-artifacts:
-  files:
-    - '**/*'
-  base-directory: build
-  discard-paths: yes
+      - aws s3 sync ./build s3://portfolio-jk/
 
 cache:
   paths:
