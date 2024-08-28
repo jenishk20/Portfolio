@@ -15,7 +15,7 @@
 .hero h1 {
   text-align: center;
   width: 70%;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 600;
 }
 
@@ -56,16 +56,3 @@
   border: 2px solid #fff;
 }
 
-.title-animation {
-  display: inline-block;
-  animation: fade-in-out 3s infinite;
-}
-
-@keyframes fade-in-out {
-  0%, 20%, 100% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-}

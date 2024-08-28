@@ -88,20 +88,6 @@ export const workExperience = [
 export const education = [
   {
     edu_id: "1",
-    institution: "Nirma University",
-    degree: "B.Tech in Computer Science",
-    duration: "2018 - 2022",
-    location: "Ahmedabad, India",
-    cgpa : "3.6 / 4",
-    logo : nirma_logo,
-    details: [
-      "Graduated with distinction",
-      "Completed projects in AI and ML",
-      "Participated in coding competitions and hackathons",
-    ],
-  },
-  {
-    edu_id: "2",
     institution: "Northeastern University",
     degree: "Master's in Computer Science",
     duration: "2024 - 2026",
@@ -114,4 +100,19 @@ export const education = [
       "Working on a thesis related to AI-based resume parsing",
     ],
   },
+  {
+    edu_id: "2",
+    institution: "Nirma University",
+    degree: "B.Tech in Computer Science",
+    duration: "2018 - 2022",
+    location: "Ahmedabad, India",
+    cgpa : "3.6 / 4",
+    logo : nirma_logo,
+    details: [
+      "Graduated with distinction",
+      "Completed projects in AI and ML",
+      "Participated in coding competitions and hackathons",
+    ],
+  },
+  
 ];
