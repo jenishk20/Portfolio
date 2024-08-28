@@ -6,7 +6,7 @@ import { workExperience } from "../../utils/constants";
 
 const Experience = () => {
   return (
-    <div className="experience-section">
+    <div id = "experience" className="experience-section">
       <div className="experience-title">
         <h1>Experience</h1>
         <img src={theme_pattern} alt="" />

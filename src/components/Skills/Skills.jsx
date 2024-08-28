@@ -5,7 +5,7 @@ import { skills } from "../../utils/constants";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id = "skills" className="skills">
       <div className="skill-title">
         <h1>Skills</h1>
         <img src={theme_pattern} alt="" />

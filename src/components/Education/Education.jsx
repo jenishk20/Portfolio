@@ -5,7 +5,7 @@ import { education } from "../../utils/constants";
 
 const Education = () => {
   return (
-    <div className="education-section">
+    <div id = "education" className="education-section">
       <div className="education-title">
         <h1>Education</h1>
         <img src={theme_pattern}></img>

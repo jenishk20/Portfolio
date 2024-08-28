@@ -7,7 +7,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const Certification = () => {
   return (
-    <div className="certification-section">
+    <div id = "certification" className="certification-section">
       <div className="certification-title">
         <h1>Certifications</h1>
         <img src={theme_pattern} alt="" />
