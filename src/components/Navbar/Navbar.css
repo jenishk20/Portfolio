@@ -50,6 +50,10 @@
   color: white;
 }
 
+.connect-link{
+  text-decoration: none;
+}
+
 .nav-mob-close {
   display: none;
 }
