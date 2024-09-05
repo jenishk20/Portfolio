@@ -15,18 +15,23 @@ const Navbar = () => {
   const openIcon = () => {
     console.log("Calling Open Icon");
     menuRef.current.style.right = "0";
-  }
-  const closeIcon = () =>{
+  };
+  const closeIcon = () => {
     console.log("Calling Closed Icon");
     menuRef.current.style.right = "-550px";
-  }
+  };
 
   return (
     <div className="navbar">
-      <img src={logo} className = "logo" alt="" />
-      <img src={menu_open} onClick = {openIcon} alt="" className="nav-mob-open" />
-      <ul ref = {menuRef} className="nav-menu">
-        <img src={menu_close} onClick = {closeIcon} alt="" className="nav-mob-close" />
+      <img src={logo} className="logo" alt="" />
+      <img src={menu_open} onClick={openIcon} alt="" className="nav-mob-open" />
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menu_close}
+          onClick={closeIcon}
+          alt=""
+          className="nav-mob-close"
+        />
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#home">
             <p onClick={() => setMenu("home")}>Home</p>
@@ -58,7 +63,11 @@ const Navbar = () => {
           {menu === "certification" ? <img src={underline} /> : <></>}
         </li>
       </ul>
-      <div className="nav-connect">Connect With Me</div>
+      <div className="nav-connect">
+        <a href="https://www.linkedin.com/in/jenishkothari/" target="_blank" className="connect-link">
+          Connect With Me
+        </a>
+      </div>
     </div>
   );
 };
