@@ -50,4 +50,7 @@
     gap: 30px;
     grid-template-columns: 1fr;
   }
+  .certification-data img{
+    width: 130px;
+  }
 }

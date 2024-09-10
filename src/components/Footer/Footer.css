@@ -33,3 +33,23 @@
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+
+  .footer{
+    width: 100%;
+  }
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .footer-links a {
+    font-size: 12px; 
+    margin: 5px;  
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
