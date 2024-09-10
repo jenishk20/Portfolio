@@ -96,10 +96,17 @@
     margin-right: -20px;
   }
   .skill-container {
+    grid-template-columns: 1fr; /* Similar to experience section */
     gap: 30px;
-    grid-template-columns: 1fr;
   }
   .skill-details{
     padding: 40px;
+  }
+  .skill-details h2 {
+    font-size: 28px;
+  }
+  .subskill {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
