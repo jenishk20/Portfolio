@@ -99,4 +99,7 @@
     gap: 30px;
     grid-template-columns: 1fr;
   }
+  .skill-details{
+    padding: 40px;
+  }
 }
