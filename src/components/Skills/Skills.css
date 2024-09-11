@@ -89,14 +89,24 @@
   }
   .skill-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
   }
   .skill-title img {
     width: 130px;
     margin-right: -20px;
   }
   .skill-container {
-    gap: 30px;
     grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .skill-details{
+    padding: 40px;
+  }
+  .skill-details h2 {
+    font-size: 28px;
+  }
+  .subskill {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }

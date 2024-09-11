@@ -14,7 +14,7 @@ const Skills = () => {
         {skills.map((skill) => {
           return (
             <div key={skill?.id} className="skill-details">
-              <h3>{skill.skill_id}</h3>
+              {/* <h3>{skill.skill_id}</h3> */}
               <h2>{skill.skill_name}</h2>
               <div className="subskills">
                 {skill.subskills.map((subskill, index) => (
