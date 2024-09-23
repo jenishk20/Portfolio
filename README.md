@@ -1,5 +1,8 @@
-# Things to be updated
-- Logo of the Webite
-- Making the website mobile reponsive
-- Nav Links test
-- Add links to public profiles like Leetcode, Github and Linkedin
+# Update :23-09-2024
+- Updating the profile photo
+- Adding up the youtube information
+
+# Coming Updates 
+- Fix the CSS of Youtube
+- Add Dark Mode
+- Add profile buttons - Leetcode, Codeforces, Github

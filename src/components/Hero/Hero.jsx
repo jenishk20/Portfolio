@@ -1,11 +1,12 @@
 import React from "react";
 import "./Hero.css";
 import profile from "../../assets/pro.png";
+import profile_beach from "../../assets/profile_beach.jpg";
 
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile} alt="" />
+      <img src={profile_beach} alt="" />
       <h1>
         <span>I'm Jenish Kothari</span>
         <br></br> Software Developer based in Boston - USA

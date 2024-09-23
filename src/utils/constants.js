@@ -84,7 +84,6 @@ export const workExperience = [
   // },
 ];
 
-
 export const education = [
   {
     edu_id: "1",
@@ -92,8 +91,8 @@ export const education = [
     degree: "Master's in Computer Science",
     duration: "2024 - 2026",
     location: "Boston, MA, USA",
-    cgpa : "3.8 / 4",
-    logo : northeastern_logo,
+    cgpa: "3.8 / 4",
+    logo: northeastern_logo,
     details: [
       "Focused on advanced algorithms, AI, and cloud computing",
       "Teaching Assistant for CS3520 - Programming in C++",
@@ -106,13 +105,43 @@ export const education = [
     degree: "B.Tech in Computer Science",
     duration: "2018 - 2022",
     location: "Ahmedabad, India",
-    cgpa : "3.6 / 4",
-    logo : nirma_logo,
+    cgpa: "3.6 / 4",
+    logo: nirma_logo,
     details: [
       "Graduated with distinction",
       "Completed projects in AI and ML",
       "Participated in coding competitions and hackathons",
     ],
   },
-  
+];
+
+export const youtube = [
+
+  {
+    id: 1,
+    title: "AWS Solution Architect Associate - Strategy",
+    url: "https://www.youtube.com/embed/FczZKMhj2F8",
+    date: "May 2023",
+    views: "100K",
+    duration: "1:30:00",
+    thumbnail: "https://i.ytimg.com/vi/Ke90Tje7VS0/maxresdefault.jpg",
+  },
+  {
+    id: 2,
+    title: "Top 50 SQL Interview Questions",
+    url: "https://www.youtube.com/embed/PRl96MQpWAE",
+    date: "May 2023",
+    views: "100K",
+    duration: "1:30:00",
+    thumbnail: "https://i.ytimg.com/vi/Ke90Tje7VS0/maxresdefault.jpg",
+  },
+  {
+    id: 3,
+    title: "Data Structures - Top Interview Question",
+    url: "https://www.youtube.com/embed/9R3EI_iXL8o",
+    date: "May 2023",
+    views: "100K",
+    duration: "1:30:00",
+    thumbnail: "https://i.ytimg.com/vi/Ke90Tje7VS0/maxresdefault.jpg",
+  },
 ];

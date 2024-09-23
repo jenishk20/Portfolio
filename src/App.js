@@ -6,6 +6,7 @@ import Certification from "./components/Certifications/Certification";
 import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Footer from "./components/Footer/Footer";
+import Youtube from "./components/Youtube/Youtube";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Education/>
       <Experience/>
       <Skills/>
+      <Youtube/>
       <Certification/>
       <Footer/>
     </div>
