@@ -6,3 +6,4 @@
 - Fix the CSS of Youtube
 - Add Dark Mode
 - Add profile buttons - Leetcode, Codeforces, Github
+- Navigation to Youtube Videos
